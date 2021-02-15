@@ -7,6 +7,10 @@ const quotes = [
     author: `Verfechter`,
   },
   {
+    content: `Moseltaler du alte Spinatwachtel mach den Corona-Fitnessstudio Thread wieder auf aber Plötzlich!!!!`,
+    author: `Jingle Single`,
+  },
+  {
     content: `Nö. Erwischt, und zwar Dich. Vermutlich hast Du als Kind zu viel aus Plastikflaschen mit BPA getrunken, das verändert die Gehirnstrukturen hin zu weiblich und deswegen spamst Du in einem Thread mit dem schwulen Titel "Zeit der Fühls" rum...
 
     Und vermutlich nix zu ficken daheim, sonst wärst Du anderweitig beschäftigt.
@@ -57,7 +61,7 @@ const quotes = [
       ex freundin fängt an zu weinen und meint das sich krank bin und hilfe brauch, daraufhin habe ich auch fast angefangen zu weinen und habe nen handtuch drüber gelegt und bin pennen gegangen ---> folge übelster knick in der beziehung, hatte lange gedauert bis alles wiede rok war
       
       oh man geile aktion, die werde ich meinen enkeln erzählen`,
-    author: `Verfechter`,
+    author: `GoldenInsider`,
   },
   {
     content: `Bei nem dreier Satz Kniebeugen hab ich bei der ersten wdh wad reissen gehört, dachte es wären nur die boxershorts wie schon öfter. Am tiefsten Punkt der 2. Seh ich im Spiegel in voller Pracht meinen Sack rumbaumeln. Aufm Weg nach oben musst ich so lachen, dass ich keinen Millimeter mehr hochkam und musste dann wieder runter und abwerfen bin dabei rückwärts umgefallen und auf der Stange gelandet`,
