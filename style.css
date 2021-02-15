@@ -22,8 +22,11 @@ body {
   height: 100%;
   font-style: italic;
   font-size: 2rem;
-  animation: fadeInAnimation 2s;
   word-wrap: break-word;
+}
+
+.run-animation {
+  animation: fadeInAnimation 2s;
 }
 
 cite {
