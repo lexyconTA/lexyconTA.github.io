@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Serif", serif;
+  height: 100vh;
+  width: 100%;
+  background-color: black;
+  padding: 10vw;
+}
+
+.quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  height: 100%;
+  font-style: italic;
+  font-size: 2rem;
+  animation: fadeInAnimation 2s;
+  word-wrap: break-word;
+}
+
+cite {
+  margin: 2rem;
+  font-size: 1rem;
+  font-style: normal;
+}
+
+blockquote p::before {
+  content: "\201C";
+  color: white;
+}
+
+blockquote p::after {
+  content: "\201D";
+  color: white;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  /* For mobile phones: */
+  .quote {
+    font-size: 0.75rem;
+  }
+
+  cite {
+    font-size: 0.5rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .quote {
+    font-size: 0.85rem;
+  }
+
+  cite {
+    font-size: 0.6rem;
+  }
+}
